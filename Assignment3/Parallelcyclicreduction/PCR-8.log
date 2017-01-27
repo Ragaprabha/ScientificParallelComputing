@@ -1,0 +1,26 @@
+Totalnodes: 8
+Mynode: 1
+Totalnodes: 8
+Mynode: 0
+Totalnodes: 8
+Mynode: 3
+Totalnodes: 8
+Mynode: 2
+Totalnodes: 8
+Mynode: 5
+Totalnodes: 8
+Mynode: 4
+Totalnodes: 8
+Mynode: 6
+Totalnodes: 8
+Mynode: 7
+Time Taken Parallel Cyclic Reduction (in microseconds):  1844
+Time Taken Parallel Cyclic Reduction (in microseconds):  3061
+Time Taken Parallel Cyclic Reduction (in microseconds):  3028
+Time Taken Parallel Cyclic Reduction (in microseconds):  1844
+Time Taken Parallel Cyclic Reduction (in microseconds):  1844
+Time Taken Parallel Cyclic Reduction (in microseconds):  3060
+Time Taken Parallel Cyclic Reduction (in microseconds):  1844
+Time Taken Parallel Cyclic Reduction (in microseconds):  2853
+
+"assignment3-6916668.fusion.log" 25L, 826C                    25,1          Bot

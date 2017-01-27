@@ -1,0 +1,152 @@
+The value of the function is 24.200000
+
+Gradient
+-215.600000
+-88.000000
+
+HessianMatrix
+1330.000000	480.000000	
+480.000000	200.000000	
+
+Newton Step: 
+0.024719
+0.380674
+
+The Value of X after 0 iteration 
+-1.175281
+1.380674
+
+Vector Noms: 0.38
+The value of the function is 4.731884
+
+Gradient
+-4.637816
+-0.122207
+
+HessianMatrix
+1107.272567	470.112360	
+470.112360	200.000000	
+
+Newton Step: 
+1.938396
+-4.555708
+
+The Value of X after 1 iteration 
+0.763115
+-3.175034
+
+Vector Noms: 4.95
+The value of the function is 41.845179
+
+Gradient
+1146.450690
+-751.475632
+
+HessianMatrix
+1970.826710	-305.245948	
+-305.245948	200.000000	
+
+Newton Step: 
+0.000315
+3.757859
+
+The Value of X after 2 iteration 
+0.763430
+0.582825
+
+Vector Noms: 3.76
+The value of the function is 0.055966
+
+Gradient
+-0.473110
+-0.000020
+
+HessianMatrix
+468.259939	-305.371872	
+-305.371872	200.000000	
+
+Newton Step: 
+0.236566
+0.361203
+
+The Value of X after 3 iteration 
+0.999995
+0.944027
+
+Vector Noms: 0.43
+The value of the function is 0.313189
+
+Gradient
+22.385205
+-11.192660
+
+HessianMatrix
+824.377817	-399.998124	
+-399.998124	200.000000	
+
+Newton Step: 
+0.000000
+0.055964
+
+The Value of X after 4 iteration 
+0.999996
+0.999991
+
+Vector Noms: 0.06
+The value of the function is 0.000000
+
+Gradient
+-0.000009
+-0.000000
+
+HessianMatrix
+801.993113	-399.998278	
+-399.998278	200.000000	
+
+Newton Step: 
+0.000004
+0.000009
+
+The Value of X after 5 iteration 
+1.000000
+1.000000
+
+Vector Noms: 0.00
+The value of the function is 0.000000
+
+Gradient
+0.000000
+-0.000000
+
+HessianMatrix
+802.000000	-400.000000	
+-400.000000	200.000000	
+
+Newton Step: 
+0.000000
+0.000000
+
+The Value of X after 6 iteration 
+1.000000
+1.000000
+
+Vector Noms: 0.00
+The value of the function is 0.000000
+
+Gradient
+-0.000000
+0.000000
+
+HessianMatrix
+802.000000	-400.000000	
+-400.000000	200.000000	
+
+Newton Step: 
+0.000000
+0.000000
+
+The Value of X after 7 iteration 
+1.000000
+1.000000
+
+Vector Noms: 0.00

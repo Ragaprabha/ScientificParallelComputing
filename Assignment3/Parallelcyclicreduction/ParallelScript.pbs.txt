@@ -1,0 +1,34 @@
+#!/bin/bash
+#PBS -N assignment3
+#PBS -q default
+#PBS -W x=QOS:eecs739-qos
+#PBS -A eecs739
+#PBS -l nodes=4:ppn=1,walltime=00:10:00
+#PBS -W x=nmatchpolicy:exactnode
+#PBS -m abe
+#PBS -d /users/ragaprabha
+#PBS -e ${PBS_JOBNAME}-${PBS_JOBID}.err
+#PBS -o ${PBS_JOBNAME}-${PBS_JOBID}.out
+
+
+# Go to user's working directory
+cd ${PBS_O_WORKDIR}
+
+# Save job specific information for troubleshooting
+echo "Job ID is ${PBS_JOBID}"
+echo "Running on host $(hostname)"
+echo "Working directory is ${PBS_O_WORKDIR}"
+echo "The following processors are allocated to this job:"
+echo $(cat $PBS_NODEFILE)
+# Copy program/data to a temporary directory on the cluster node
+#LOCAL_DIR=$(mktemp -d );
+#cp ${PBS_O_WORKDIR}/* ${LOCAL_DIR}
+
+# Run the program
+echo "Start: $(date +%F_%T)"
+mpirun -np 4 ${PBS_O_WORKDIR}/parallel > ${PBS_O_WORKDIR}/${PBS_JOBNAME}-${PBS_JOBID}.log
+echo "Stop: $(date +%F_%T)"
+
+# Copy data back to the user's working directory and clean up
+#cp -rf ${LOCAL_DIR}/* ${PBS_O_WORKDIR}
+#rm -rf ${LOCAL_DIR}

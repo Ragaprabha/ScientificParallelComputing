@@ -1,0 +1,41 @@
+Last login: Sun Feb 22 19:44:56 on ttys000
+vinod-myll-s-macbook-pro:~ VINOD$ cd Desktop/
+vinod-myll-s-macbook-pro:Desktop VINOD$ cd SPC\ Assignment/
+vinod-myll-s-macbook-pro:SPC Assignment VINOD$ javac HessenbergResult.java
+vinod-myll-s-macbook-pro:SPC Assignment VINOD$ java HessenbergResult
+The Upper Hessenberg Matrix is:
+	3.0	4.0	1.0	7.0
+	1.0	4.0	2.0	3.0
+	0.0	2.0	3.0	4.0
+	0.0	0.0	1.0	3.0
+The constant vector is:
+	1.0
+	2.0
+	3.0
+	4.0
+
+The Upper Triangular Matrix is:
+	3.0	4.0	1.0	7.0
+	0.0	2.666666666666667	1.6666666666666667	0.666666666666667
+	0.0	0.0	1.7500000000000002	3.5
+	0.0	0.0	0.0	1.0
+
+The Lower Triangular Matrix is:
+	1.0	0.0	0.0	0.0
+	0.3333333333333333	1.0	0.0	0.0
+	0.0	0.7499999999999999	1.0	0.0
+	0.0	0.0	0.5714285714285714	1.0
+
+The Y Vector is:
+	1.0
+	1.6666666666666667
+	1.7500000000000002
+	3.0
+
+The X Vector is:
+	-8.999999999999998
+	2.9999999999999987
+	-4.999999999999999
+	3.0
+Total Time Taken: 3 ms
+vinod-myll-s-macbook-pro:SPC Assignment VINOD$ 
